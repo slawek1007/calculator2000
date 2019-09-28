@@ -16,6 +16,7 @@ namespace Calculator3000
                 Console.WriteLine("1. Add");
                 Console.WriteLine("2. Diff");
                 Console.WriteLine("3. Mult");
+                Console.WriteLine("4. Div");
 
                 int menuOption = Convert.ToInt32(Console.ReadLine());
 
@@ -32,6 +33,10 @@ namespace Calculator3000
 
                 }
                 else if (menuOption == 3)
+                {
+
+                }
+                else if (menuOption == 4)
                 {
 
                 }
