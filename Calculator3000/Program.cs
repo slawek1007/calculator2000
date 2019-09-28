@@ -12,20 +12,26 @@ namespace Calculator3000
         {
             while (true)
             {
+                Console.WriteLine("0. Exit");
+                Console.WriteLine("1. Add");
+                Console.WriteLine("2. Diff");
+                Console.WriteLine("3. Mult");
+
                 int menuOption = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("0. Exit");
                 if (menuOption == 0)
                 {
                     break;
                 }
-                Console.WriteLine("1. ADD");
-                if (menuOption == 1)
+                else if (menuOption == 1)
                 {
 
                 }
-                Console.WriteLine("2. DIFF");
-                if (menuOption == 2)
+                else if (menuOption == 2)
+                {
+
+                }
+                else if (menuOption == 3)
                 {
 
                 }
