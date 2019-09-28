@@ -17,6 +17,7 @@ namespace Calculator3000
                 Console.WriteLine("2. Diff");
                 Console.WriteLine("3. Mult");
                 Console.WriteLine("4. Div");
+                Console.WriteLine("5. Power");
 
                 int menuOption = Convert.ToInt32(Console.ReadLine());
 
